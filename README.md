@@ -30,10 +30,10 @@ CREATE TABLE messages (
     FOREIGN KEY (room_id) REFERENCES rooms(id)
 );
 ```
-### 1. Clone the Repository
+### 1. Clone the Repository, in /var/www/html folder in linux or your /xampp/htdocs folder in windows
 
 ```bash
-git clone https://github.com/your-username/chat-app.git
-cd chat-app
+git clone https://github.com/yash128/phpChat.git
+cd phpChat
 ```
-and enjoy using the app.
+and enjoy using the app at localhost/phpChat/.
