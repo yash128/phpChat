@@ -4,7 +4,7 @@ session_start();
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "hello";
+$db = "chat_app";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
